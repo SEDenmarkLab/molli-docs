@@ -26,7 +26,7 @@ MarkupSafe==2.1.1
 mccabe==0.7.0
 mdit-py-plugins==0.3.1
 mdurl==0.1.2
-git+https://${token}github.com/SEDenmarkLab/molli.git@{Sphinx}
+git+https://${DOCS}github.com/SEDenmarkLab/molli.git@{Sphinx}
 more-itertools==9.0.0
 msgpack==1.0.4
 myst-parser==0.18.1
