@@ -23,7 +23,6 @@ Welcome to Molli's documentation!
    API/molli.chem/_index
    API/molli.data/_index
 
-  
 
 .. toctree::
    :maxdepth: 2

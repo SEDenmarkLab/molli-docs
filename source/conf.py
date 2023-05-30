@@ -7,13 +7,7 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 
-import molli.chem.atom
-import molli.chem.bond
-import molli.chem.ensemble
-import molli.chem.fragment 
-import molli.chem.geometry
-import molli.chem.molecule
-import molli.chem.structure
+import molli.chem
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -28,8 +22,7 @@ release = '1.0.0'
 
 extensions = ['sphinx.ext.autodoc', 
               'myst_parser', 
-              "nbsphinx",
-              "sphinxcontrib.autoyaml"]
+              "nbsphinx"]
 
 #Ensures that Jupyter notebook files area always read through this extension
 nbsphinx_execute = 'always'
