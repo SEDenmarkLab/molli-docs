@@ -26,10 +26,23 @@ release = '1.0.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc']
+extensions = ['sphinx.ext.autodoc', 
+              'myst_parser', 
+              "nbsphinx",
+              "sphinxcontrib.autoyaml"]
+
+#Ensures that Jupyter notebook files area always read through this extension
+nbsphinx_execute = 'always'
 
 autodoc_member_order = 'bysource'
 
+autoyaml_level = 2
+
+# Separates the class and the constructor signature, leading to the html page looking cleaner
+autodoc_class_signature = "separated"
+
+# Removes the type hints from the documentation, this makes the documentation legible 
+autodoc_typehints = "none"
 
 templates_path = ['_templates']
 exclude_patterns = []
