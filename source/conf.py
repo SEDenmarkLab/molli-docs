@@ -22,7 +22,8 @@ release = '1.0.0'
 
 extensions = ['sphinx.ext.autodoc', 
               'myst_parser', 
-              "nbsphinx"]
+              "nbsphinx",
+              'sphinx.ext.napoleon']
 
 #Ensures that Jupyter notebook files area always read through this extension
 nbsphinx_execute = 'always'
