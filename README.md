@@ -2,56 +2,11 @@
 
 (C) 2022 Alexander S. Shved and the Denmark laboratory
 
-# Installation and Building
+This is the repository for the documentation of Molli. It was built using Sphinx and utilizes various extensions to allow for autodocumentation of Molli in both RST and Google docstring formatting. 
 
-Molli is designed to serve as both a pip package and a conda package.
-The main difference comes from the fact that several required components are unavailable from a normal pip distribution (openbabel, xtb/crest, etc). Using anaconda also allows
+The documentation contains an API section which shows the various methods and attributes throughout Molli. 
 
-Molli is both a pip and conda package. Technically, it is installable with both, but there are large differences described below. They boil down to pip's inability to install certain secondary dependencies.
+The cookbook section contains various Jupyter-notebooks that can show various functions of Molli that are commonly utilized.
 
-## Install as a `pip` package
+This Documentation was built to be compatible with Read the Docs. The requirements.txt file contains the packages that Read the Docs will use to install and properly upload Molli. 
 
-This mode is not preferred, but allows easier debugging in certain cases. Please note that this installation may leave your conda environment (if you have one) in a broken state.
-
-1. Download or clone the source code to *`<path_to_molli_src>`*
-2. `pip install` *`<path_to_molli_src>`*
-
-This way of installing also compiles molli external C++ code correctly.
-
-## Install as a `conda` package
-
-TBD when conda channel becomes functional
-
-
-## Building
-1. Create a new environment
-2.
-```
-conda config --set channel_priority flexible
-conda config --append channels conda-forge
-```
-
-## Testing installation
-
-1. Run the following command from your terminal.
-```
-molli info
-```
-2. Perform unit tests (-v for verbose mode is optional):
-```
-python -m unittest molli_test -v
-```
-
-## Install in development mode
-
-```
-pip install -e . --config-settings editable_mode=compat
-```
-
-# Hello, World!
-
-This section describes your first steps in molli package
-
-# Package structure
-
-# Benchmarks

@@ -36,7 +36,11 @@ Welcome to Molli's documentation!
 
    cookbook/001-basic-objects
    cookbook/002-molecule
-   cookbook/005-visualize
+   cookbook/003-structures 
+   cookbook/004-visualize
+   cookbook/005-grid
+   cookbook/006-del-bond 
+ 
 
    
 .. toctree::
