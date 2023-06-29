@@ -6,6 +6,7 @@ molli.chem
    :caption: molli.chem
 
    atom
+   atomtypes
    bond
    ensemble
    fragment
