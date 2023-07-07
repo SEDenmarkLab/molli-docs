@@ -31,9 +31,7 @@ python:
    - requirements: source/requirements.txt,
 
 python:
-  install:
-    - method: pip
-      path: ../molli
+  system_packages: TRUE 
 
 version: 2
 
