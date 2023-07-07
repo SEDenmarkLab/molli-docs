@@ -28,7 +28,7 @@ mccabe==0.7.0
 mdit-py-plugins==0.3.1
 mdurl==0.1.2
 more-itertools==9.0.0
-molli -e '/Users/austincoder/Documents/GitHub/molli'
+molli == -e '/Users/austincoder/Documents/GitHub/molli'
 msgpack==1.0.4
 myst-parser==0.18.1
 nbconvert==7.2.1
