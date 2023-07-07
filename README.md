@@ -2,11 +2,19 @@
 
 (C) 2022 Alexander S. Shved and the Denmark laboratory
 
-This is the repository for the documentation of Molli. It was built using Sphinx and utilizes various extensions to allow for autodocumentation of Molli in both RST and Google docstring formatting. 
+## Code Design
 
-The documentation contains an API section which shows the various methods and attributes throughout Molli. 
+Molli is a tool for people in cheminformatics to quickly and efficiently upload molecules into Python. Then, the molecules can be adjusted for visualization.
 
-The cookbook section contains various Jupyter-notebooks that can show various functions of Molli that are commonly utilized.
+This is the repository for the documentation of molli. To generate this documentation yourself, the following is required. 
 
-This Documentation was built to be compatible with Read the Docs. The requirements.txt file contains the packages that Read the Docs will use to install and properly upload Molli. 
+## Installation and Dependencies 
 
+The documentation imports the molli code locally. Consequently, molli must already be installed to generate this documentation. 
+'''
+git clone https://github.com/SEDenmarkLab/molli 
+cd molli 
+pip install -e
+'''
+
+## Citation 
