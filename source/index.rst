@@ -40,6 +40,7 @@ Welcome to Molli's documentation!
    cookbook/004-visualize
    cookbook/005-grid
    cookbook/006-del-bond 
+   cookbook/007-matplotlib
  
 
    
@@ -48,6 +49,7 @@ Welcome to Molli's documentation!
    :caption: Miscellaneous 
    
    miscellaneous/inheritance_diagram
+   miscellaneous/extensions
 
 
 

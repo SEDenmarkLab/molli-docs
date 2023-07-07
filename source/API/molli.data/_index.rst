@@ -8,7 +8,7 @@ molli.data
    atomic_weight
    color_cpk
    covalent_radius_1
-   covalnet_radius_grimme
+   covalent_radius_grimme
    electron_affinity
    element_group
    vdw_radius
