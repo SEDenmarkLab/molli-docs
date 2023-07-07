@@ -16,7 +16,7 @@ idna==3.4
 imagesize==1.4.1
 importlib-metadata==5.1.0
 influxdb==5.3.1
-itkwidgets==0.34.0
+itkwidgets==0.32.6
 jaraco.classes==3.2.3
 jeepney==0.8.0
 Jinja2==3.1.2

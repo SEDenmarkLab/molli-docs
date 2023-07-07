@@ -23,7 +23,8 @@ release = '1.0.0'
 extensions = ['sphinx.ext.autodoc', 
               'myst_parser', 
               "nbsphinx",
-              'sphinx.ext.napoleon']
+              'sphinx.ext.napoleon',
+              'sphinx.ext.intersphinx']
 
 #Ensures that Jupyter notebook files area always read through this extension
 nbsphinx_execute = 'always'
@@ -41,6 +42,11 @@ autodoc_typehints = "none"
 templates_path = ['_templates']
 exclude_patterns = []
 
+# Mapping for outside references.
+
+intersphinx_mapping = {
+    "rdkit": ("https://www.https://www.rdkit.org/docs/", None),
+}
 
 
 # -- Options for HTML output -------------------------------------------------
