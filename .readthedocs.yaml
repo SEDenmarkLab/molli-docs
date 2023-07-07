@@ -31,9 +31,9 @@ python:
    - requirements: source/requirements.txt,
 
 python:
-   install:
-   - requirements: molli @ file://../molli
-
+  install:
+    - method: pip
+      path: ../molli
 
 version: 2
 
