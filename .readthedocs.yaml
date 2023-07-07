@@ -29,8 +29,11 @@ sphinx:
 python:
    install:
    - requirements: source/requirements.txt,
+
+python:
+   install:
    - requirements: molli @ file://../molli
-   
+
 
 version: 2
 
