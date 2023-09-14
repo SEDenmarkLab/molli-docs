@@ -27,7 +27,7 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.intersphinx']
 
 #Ensures that Jupyter notebook files area always read through this extension
-nbsphinx_execute = 'always'
+nbsphinx_execute = 'auto'
 
 autodoc_member_order = 'bysource'
 
