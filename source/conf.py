@@ -45,7 +45,7 @@ exclude_patterns = []
 # Mapping for outside references.
 
 intersphinx_mapping = {
-    "rdkit": ("https://www.https://www.rdkit.org/docs/", None),
+    "rdkit": ("https://www.rdkit.org/docs/", None),
 }
 
 
