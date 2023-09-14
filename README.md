@@ -11,11 +11,11 @@ This is the repository for the documentation of molli. To generate this document
 ## Installation of Molli
 
 The documentation imports the molli code locally. Consequently, molli must already be installed to generate this documentation. 
-'''
+```
 git clone https://github.com/SEDenmarkLab/molli 
 cd molli 
 pip install -e
-'''
+```
 
 ## Necessary Dependencies for Building Documentation
 
@@ -44,7 +44,6 @@ open index.html
 Note: This can also be run with other commands such as 
 
 ```
-open index.html
 xdg-open index.html
 firefox index.html
 google-chrome index.html
