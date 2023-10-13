@@ -11,5 +11,7 @@ molli.chem
    ensemble
    fragment
    geometry
+   legacy
+   library
    molecule
    structure

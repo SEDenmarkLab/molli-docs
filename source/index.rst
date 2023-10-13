@@ -23,8 +23,10 @@ Welcome to Molli's documentation!
    API/molli.chem/_index
    API/molli.data/_index
    API/molli.descriptor/_index
+   API/molli.external/_index
+   API/molli.ftypes/_index
    API/molli.math/_index
-
+   
 
 .. toctree::
    :maxdepth: 2
