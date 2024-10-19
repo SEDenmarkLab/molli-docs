@@ -39,16 +39,16 @@ Welcome to Molli's documentation!
    :caption: Molli Cookbook
 
    cookbook/001-helloworld.ipynb
-   cookbook/002-molecule.ipynb
-   cookbook/003-del-bond.ipynb
-   cookbook/004-libraries.ipynb
-   cookbook/005-grid.ipynb
-   cookbook/006-chemdraw.ipynb
-   cookbook/007-openbabel.ipynb
-   cookbook/008-rdkit.ipynb
-   cookbook/009-visualize-pyvista.ipynb
-   cookbook/010-matplotlib.ipynb
-   
+   cookbook/002-atom.ipynb
+   cookbook/003-bond.ipynb
+   cookbook/004-geometry.ipynb
+   cookbook/005-conformerensemble.ipynb
+   cookbook/006-libraries.ipynb
+   cookbook/007-visualization.ipynb
+   cookbook/008-chemdraw.ipynb
+   cookbook/009-openbabel.ipynb
+   cookbook/010-rdkit.ipynb
+   cookbook/011-gbca.ipynb
 
 
 .. toctree::
