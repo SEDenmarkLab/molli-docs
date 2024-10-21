@@ -49,6 +49,8 @@ Welcome to Molli's documentation!
    cookbook/009-openbabel.ipynb
    cookbook/010-rdkit.ipynb
    cookbook/011-gbca.ipynb
+   cookbook/012-jobmap.ipynb
+   cookbook/013-BOX_workflow.ipynb
 
 
 .. toctree::
