@@ -52,6 +52,18 @@ Welcome to Molli's documentation!
    cookbook/012-jobmap.ipynb
    cookbook/013-BOX_workflow.ipynb
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Benchmarks and Workflows
+
+   zenodo/001-molnet.ipynb
+   zenodo/002-crude.ipynb
+   zenodo/003-buildlibrary.ipynb
+   zenodo/004-readwrite
+   zenodo/05-gbca-benchmark/_index
+   zenodo/06-gbca-calculation-vis/_index
+   zenodo/07-kras-inhibitor-rotation-barrier/_index
+   zenodo/08-workflow-nmr-prediction/_index
 
 .. toctree::
    :maxdepth: 2
